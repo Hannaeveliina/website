@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yhteystiedot — Studio Hanna</title>
+  <link href="../CSS/css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <a href="index.html" class="logo">Studio Hanna</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="products.html">Palvelut</a></li>
+        <li><a href="contact.html">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1>Ota yhteyttä</h1>
+    <form class="form">
+      <input type="text" placeholder="Nimi" required>
+      <input type="email" placeholder="Sähköposti" required>
+      <textarea placeholder="Viesti"></textarea>
+      <button class="btn">Lähetä</button>
+    </form>
+
+    <div class="contact-info">
+      <p>Sähköposti: <a href="mailto:studio@hanna.fi">studio@hanna.fi</a></p>
+      <p>Puhelin: +358 40 123 4567</p>
+      <p>Osoite: Espoo</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container wrap">
+    <small>© <span id="year"></span> Studio Hanna</small>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

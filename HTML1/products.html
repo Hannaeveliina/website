@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Palvelut — Studio Hanna</title>
+  <link rel="stylesheet" href="../CSS/css/style.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <a href="index.html" class="logo">Studio Hanna</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="products.html">Palvelut</a></li>
+        <li><a href="contact.html">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1>Palvelut ja hinnasto</h1>
+    <div class="grid">
+      <article class="card">
+        <img src="assets/sample2.jpg" alt="Hääpari poseeraa">
+        <div class="content">
+          <h3>Hääkuvaus</h3>
+          <p>Dokumentaarinen hääkuvaus seremoniaan ja juhlaan.</p>
+          <p class="price">Alk. 990 €</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/sample1.jpg" alt="Muotokuva studiossa">
+        <div class="content">
+          <h3>Muotokuvaus</h3>
+          <p>Henkilö- tai perhemuotokuvat studiossa tai ulkona.</p>
+          <p class="price">Alk. 180 €</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/sample4.jpg" alt="Tuotekuva">
+        <div class="content">
+          <h3>Tuotekuvaus</h3>
+          <p>Selkeät tuotekuvat verkkokauppaan ja mainoksiin.</p>
+          <p class="price">Alk. 25 €/tuote</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container wrap">
+    <small>© <span id="year"></span> Studio Hanna</small>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
