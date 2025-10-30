@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e110758-b838-4872-8bbd-0329fbe39381" name="Changes" comment="Update" />
+    <list default="true" id="6e110758-b838-4872-8bbd-0329fbe39381" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,8 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Website" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -61,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/hanna/PycharmProjects/Website2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -124,6 +127,8 @@
       <workItem from="1761734416930" duration="442000" />
       <workItem from="1761734953246" duration="1385000" />
       <workItem from="1761754008325" duration="11455000" />
+      <workItem from="1761765573137" duration="217000" />
+      <workItem from="1761766122536" duration="15000" />
     </task>
     <task id="LOCAL−00001" summary="fhftgh">
       <option name="closed" value="true" />
@@ -132,7 +137,21 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1761735219561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Update">
+      <option name="closed" value="true" />
+      <created>1761765599148</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1761765599148</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Update">
+      <option name="closed" value="true" />
+      <created>1761765734370</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1761765734370</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fhftgh" />
-    <option name="LAST_COMMIT_MESSAGE" value="fhftgh" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
