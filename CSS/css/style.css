@@ -254,12 +254,12 @@ nav a.active, nav a:hover {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  max-width: 400px;
+  gap: 20px;
+  max-width: 500px;
 }
 
 .form input, .form textarea {
-  padding: 10px;
+  padding: 20px;
   border-radius: 8px;
   border: 1px solid #ccc;
   background: #fff;
