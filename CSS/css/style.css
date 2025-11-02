@@ -13,7 +13,7 @@ body {
 header {
     background-color: cadetblue;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
 }
 nav {
@@ -27,7 +27,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
 }
 
@@ -43,20 +43,20 @@ nav a:hover {
 
 main {
     background-color: #9c9cac;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 section {
     background-color: grey;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
 }
 
 article {
     background-color: grey;
     color: white;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
 }
 
 figure {
@@ -76,14 +76,14 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 1.75rem;
 }
 
 .logo {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 nav { background: transparent; }
 nav ul {
@@ -91,14 +91,14 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 nav a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  padding: 8px 12px;
-  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
 }
 nav a:hover,
 nav a.active {
@@ -115,7 +115,7 @@ body {
 header {
   background: #222;
   color: white;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .container {
@@ -133,7 +133,7 @@ header {
 .brand {
     color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
     text-decoration: none;
     margin-left: 0;
 }
@@ -141,7 +141,7 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 18px;
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
 }
@@ -149,8 +149,8 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
-  padding: 6px 10px;
-  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
 }
 
 nav a.active, nav a:hover {
@@ -161,32 +161,32 @@ nav a.active, nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0;
+  padding: 3.75rem 0;
 }
 
 .hero img {
   width: 45%;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 
 .btn {
   display: inline-block;
   background: #e6b325;
   color: #111;
-  padding: 10px 18px;
+  padding: 0.5rem 1rem;
   border-radius: 999px;
   text-decoration: none;
   font-weight: bold;
 }
 
 .section {
-  padding: 40px 0;
+  padding: 2.5rem 0;
 }
 
 .grid {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   align-items: center;
 }
 
@@ -194,9 +194,9 @@ nav a.active, nav a:hover {
 .card {
   background: white;
   color: black;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.15);
 }
 
 .card img {
@@ -205,7 +205,7 @@ nav a.active, nav a:hover {
 }
 
 .card .content {
-  padding: 16px;
+  padding: 1rem;
 }
 
 .card h3 {
@@ -220,20 +220,18 @@ nav a.active, nav a:hover {
 .card {
   background: white;
   color: black;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.15);
   width: 80%;
   max-width: 1000px;
   min-height: 450px;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
-
 
 .price {
   font-weight: bold;
@@ -243,24 +241,24 @@ nav a.active, nav a:hover {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .gallery img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   max-width: 500px;
 }
 
 .form input, .form textarea {
-  padding: 20px;
-  border-radius: 8px;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
   border: 1px solid #ccc;
   background: #fff;
   color: #222;
@@ -274,7 +272,7 @@ footer {
   background-color: white;
   color: #333;
   text-align: center;
-  padding: 15px 0;
+  padding: 1rem 0;
   border-top: 1px solid #ddd;
 }
 
@@ -283,7 +281,7 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .logo:visited {
@@ -310,19 +308,19 @@ footer {
 
 
 .hero h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
 }
 
 .hero p {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero .btn {
   background: #e6b325;
   color: #111;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   border-radius: 999px;
   text-decoration: none;
   font-weight: bold;
@@ -342,15 +340,17 @@ html, body {
   padding: 0;
 }
 
-.kartta {
-  flex: 1;                      /* vie oikean puolen tilasta */
-}
-
 .kartta iframe {
   width: 50%;
   height: 350px;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+    }
 }
 
 
