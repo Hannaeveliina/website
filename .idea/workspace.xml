@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e110758-b838-4872-8bbd-0329fbe39381" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML1/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML1/yhteystiedot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML1/galleria.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML1/galleria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML1/etusivu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML1/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML1/palvelut.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +132,7 @@
       <workItem from="1761821011111" duration="16894000" />
       <workItem from="1761857056939" duration="939000" />
       <workItem from="1762029689131" duration="1056000" />
-      <workItem from="1762100792368" duration="5566000" />
+      <workItem from="1762100792368" duration="5923000" />
     </task>
     <task id="LOCAL−00001" summary="fhftgh">
       <option name="closed" value="true" />
@@ -195,7 +190,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1762030458298</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Update">
+      <option name="closed" value="true" />
+      <created>1762109424100</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1762109424100</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
