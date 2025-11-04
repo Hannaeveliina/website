@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
-    color: #222;
+    color: #000000;
 }
 
 .container {
@@ -34,7 +34,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #222;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ section {
 
 article {
     background-color: grey;
-    color: white;
+    color: #000000;
     padding: 1.25rem;
     border-radius: 0.5rem;
 }
@@ -112,7 +112,7 @@ nav a.active {
 body {
   font-family: Arial, sans-serif;
   background: #fafafa;
-  color: #222;
+  color: #000000;
   margin: 0;
 }
 
@@ -264,7 +264,7 @@ nav a.active, nav a:hover {
   border-radius: 0.5rem;
   border: 1px solid #ccc;
   background: #fff;
-  color: #222;
+  color: #000000;
 }
 
 .btn:hover {
@@ -291,7 +291,7 @@ footer {
 }
 
 .hero {
-  background-image: url("https://www.tom-archer.com/wp-content/uploads/2017/06/the-lofoten-islands-photography-norway-11.jpg");
+  background-image: url("https://i.imgur.com/rbUCFdO.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -314,7 +314,7 @@ footer {
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 1.25rem;
 }
 
@@ -350,7 +350,7 @@ html, body {
 
 @media screen and (min-width: 769px) {
     .container {
-        width: 80%;
+        width: 100%;
     }
 }
 

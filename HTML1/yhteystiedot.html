@@ -28,18 +28,21 @@
   </div>
 </header>
 
-<main class="yhteystiedot-sisalto">
-  <section class="tiedot-ja-kartta">
+<main>
+  <section>
     <h1>Ota yhteyttä</h1>
     <form class="form">
-      <input type="text" placeholder="Nimi" required>
-      <input type="email" placeholder="Sähköposti" required>
-      <textarea placeholder="Viesti"></textarea>
+        <label for="nimi">Nimi</label>
+      <input type="text" id="nimi" name="nimi" placeholder="Nimi" required>
+        <label for="sahkoposti">Sähköposti</label>
+      <input type="email" id="sahkoposti" name="sahkoposti" placeholder="Sähköposti" required>
+         <label for="viesti">Viestisi</label>
+      <textarea id="viesti" name="viesti" placeholder="Viesti"></textarea>
       <button class="btn">Lähetä</button>
     </form>
 
-    <div class="contact-info">
-      <p>Sähköposti: <a href="mailto:studio@hanna.fi">studio@hanna.fi</a></p>
+    <div>
+      <p>Sähköposti: studio@hanna.fi</p>
         <p>Instagram: @valokuvaushannak</p>
       <p>Puhelin: +358 40 123 4567</p>
       <p>Osoite: Karaportti 2, 02610, Espoo, Finland</p>
@@ -48,7 +51,7 @@
       <div class="kartta">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.771271603779!2d24.7559389770517!3d60.22399587505986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df797cfe43cbb%3A0xb99a2c26d4df39ff!2sMetropolia%20Ammattikorkeakoulu%20-%20Karamalmin%20kampus!5e0!3m2!1sfi!2sfi!4v1761834535130!5m2!1sfi!2sfi"
-        width="100%"
+        width="600"
         height="350"
         style="border:0;"
         allowfullscreen=""
@@ -60,7 +63,7 @@
 </main>
 
 <footer>
-  <div class="container wrap">
+  <div>
     <small>© 2025 Studio Hanna</small>
   </div>
 </footer>
